@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/React-Big-Basket/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/React-Big-Basket/static/js/main.59441116.chunk.js",
-    "main.js.map": "/React-Big-Basket/static/js/main.59441116.chunk.js.map",
-    "runtime-main.js": "/React-Big-Basket/static/js/runtime-main.91306834.js",
-    "runtime-main.js.map": "/React-Big-Basket/static/js/runtime-main.91306834.js.map",
-    "static/js/2.59d405c0.chunk.js": "/React-Big-Basket/static/js/2.59d405c0.chunk.js",
-    "static/js/2.59d405c0.chunk.js.map": "/React-Big-Basket/static/js/2.59d405c0.chunk.js.map",
-    "static/js/3.0aaa5ae8.chunk.js": "/React-Big-Basket/static/js/3.0aaa5ae8.chunk.js",
-    "static/js/3.0aaa5ae8.chunk.js.map": "/React-Big-Basket/static/js/3.0aaa5ae8.chunk.js.map",
+    "main.css": "/React-Big-Basket/static/css/main.ddb663bf.chunk.css",
+    "main.js": "/React-Big-Basket/static/js/main.597d1e21.chunk.js",
+    "main.js.map": "/React-Big-Basket/static/js/main.597d1e21.chunk.js.map",
+    "runtime-main.js": "/React-Big-Basket/static/js/runtime-main.d3599407.js",
+    "runtime-main.js.map": "/React-Big-Basket/static/js/runtime-main.d3599407.js.map",
+    "static/css/2.150d169a.chunk.css": "/React-Big-Basket/static/css/2.150d169a.chunk.css",
+    "static/js/2.f23f1c30.chunk.js": "/React-Big-Basket/static/js/2.f23f1c30.chunk.js",
+    "static/js/2.f23f1c30.chunk.js.map": "/React-Big-Basket/static/js/2.f23f1c30.chunk.js.map",
+    "static/js/3.19861133.chunk.js": "/React-Big-Basket/static/js/3.19861133.chunk.js",
+    "static/js/3.19861133.chunk.js.map": "/React-Big-Basket/static/js/3.19861133.chunk.js.map",
     "index.html": "/React-Big-Basket/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/React-Big-Basket/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.59d405c0.chunk.js.LICENSE.txt": "/React-Big-Basket/static/js/2.59d405c0.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/React-Big-Basket/static/media/logo.6ce24c58.svg"
+    "static/css/2.150d169a.chunk.css.map": "/React-Big-Basket/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.ddb663bf.chunk.css.map": "/React-Big-Basket/static/css/main.ddb663bf.chunk.css.map",
+    "static/js/2.f23f1c30.chunk.js.LICENSE.txt": "/React-Big-Basket/static/js/2.f23f1c30.chunk.js.LICENSE.txt",
+    "static/media/BigBasket-Offer.95ff9e94.jpg": "/React-Big-Basket/static/media/BigBasket-Offer.95ff9e94.jpg",
+    "static/media/img2.0b22d724.jpg": "/React-Big-Basket/static/media/img2.0b22d724.jpg",
+    "static/media/img4.7d96d178.jpg": "/React-Big-Basket/static/media/img4.7d96d178.jpg",
+    "static/media/logo.596f9db2.png": "/React-Big-Basket/static/media/logo.596f9db2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.91306834.js",
-    "static/js/2.59d405c0.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.59441116.chunk.js"
+    "static/js/runtime-main.d3599407.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.f23f1c30.chunk.js",
+    "static/css/main.ddb663bf.chunk.css",
+    "static/js/main.597d1e21.chunk.js"
   ]
 }
