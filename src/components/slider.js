@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import img1 from "../images/BigBasket-Offer.jpg"
 import img2 from "../images/img2.jpg";
-import img4 from "../images/img4.jpg";
+import img3 from "../images/img5.jpg";
 
 import {
     Carousel
@@ -19,7 +19,6 @@ function Slider(){
       src={img1}
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
      
     </Carousel.Caption>
   </Carousel.Item>
@@ -31,18 +30,16 @@ function Slider(){
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
       alt="Third slide"
-      src={img4}
+      src={img3}
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

@@ -18,3 +18,10 @@
 Button{
   border-radius: 50%;
 }
+.d-block {
+  width: 1350px;
+  height: 590px;
+}
+.head1{
+  text-align: center;
+}
