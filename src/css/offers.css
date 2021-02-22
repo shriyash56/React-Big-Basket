@@ -1,0 +1,36 @@
+
+.card:hover{
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc; 
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  
+    box-shadow:         3px 3px 5px 6px #ccc;
+  }
+  
+  .card{
+    text-align:center;
+  }
+  
+ wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  wrap img {
+    
+    height: 230px;
+    width: 250px;
+    
+  }
+card{
+    display: block;
+  position: relative;
+  height: 230px;
+  width: 250px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: palegoldenrod;
+  margin-bottom: 20px;
+  
+  border-color: var(--color);
+  border: 3px solid var(--color);
+}
