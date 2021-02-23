@@ -119,16 +119,6 @@ const populardata = [
         <h2 className="head1">Most Pooplar</h2>
       </div>
 
-{/* 
-      <div className="mostPopularimg">
-        
-        <img src={popularimg1}></img>
-        <img src={popularimg2}></img>
-        <img src={popularimg3}></img>
-        <img src={popularimg4}></img>
-      
-      </div> */}
-
     <wrap>
         {populardata.map((offers) => {
           return (

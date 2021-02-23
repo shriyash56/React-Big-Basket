@@ -9,8 +9,15 @@ import {
   Button,
 } from "react-bootstrap";
 import logo from "../logo/logo.png";
+import {useHistory} from "react-router-dom";
+
+
 
 function Header() {
+
+  const history = useHistory();
+ 
+
   return (
     <>
       <Navbar className="nav" expand="lg">
@@ -33,6 +40,9 @@ function Header() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <Form>
+          <button className="raise" onClick={() => history.push('/login')}>Login/Signup</button>
+          </Form>
           <Form inline className="search-bar">
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
             <Button className="button" variant="outline-success"><i class="fas fa-search"></i></Button>
