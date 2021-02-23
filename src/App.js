@@ -12,9 +12,9 @@ function App() {
     <Router>
     <div className="App">
       <Switch>
-          <Route path="/" exact component={Home}/>
-          <Route path="/login" exact component={Login}/>
-          <Route path="/logout" exact component={Logout}/>
+          <Route path="/React-Big-Basket" exact component={Home}/>
+          <Route path="/React-Big-Basket/login" exact component={Login}/>
+          <Route path="/React-Big-Basket/logout" exact component={Logout}/>
       </Switch>
     </div>
     </Router>

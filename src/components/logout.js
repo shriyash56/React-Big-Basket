@@ -31,7 +31,7 @@ function Logout() {
             <input type="submit" value="SIGNUP"/>
           </div>
           <div class="field1">
-            <Link to={'/'}>Home</Link>
+            <Link to={'/React-Big-Basket/'}>Home</Link>
           </div>
         </form>
       </div>
