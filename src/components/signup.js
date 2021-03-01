@@ -2,7 +2,7 @@ import React from "react";
 import "../css/logout.css"
 import {Link} from "react-router-dom"
 
-function Logout() {
+function Signup() {
 
         
     return(
@@ -31,7 +31,7 @@ function Logout() {
             <input type="submit" value="SIGNUP"/>
           </div>
           <div class="field1">
-            <Link to={'/React-Big-Basket/'}>Home</Link>
+            <Link className="link1" to={'/React-Big-Basket/'}>Home</Link>
           </div>
         </form>
       </div>
@@ -40,4 +40,4 @@ function Logout() {
     );
 }
 
-export default Logout;
+export default Signup;

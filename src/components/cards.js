@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
-import "../css/offers.css"
+import "../css/offers.css";
+import "../css/snacks.css";
 import Whirligig from 'react-whirligig'
 import img1 from "../images/card3.jpg"
 import img2 from "../images/card1.jpg";
@@ -11,6 +12,12 @@ import popularimg1 from "../images/most popular/img4.jpg"
 import popularimg2 from "../images/most popular/img5.jpg"
 import popularimg3 from "../images/most popular/img6.png"
 import popularimg4 from "../images/most popular/img7.jpg"
+
+import snacksimg1 from "../images/snaks/img2.jpeg"
+import snacksimg2 from "../images/snaks/img2.jpg"
+import snacksimg3 from "../images/snaks/img3.jpg"
+import snacksimg4 from "../images/snaks/img4.png"
+import snacksimg5 from "../images/snaks/img5.png"
 
 
 
@@ -109,12 +116,14 @@ const populardata = [
           </Card.Body>
          </Card>
     </Whirligig>
+    
     {/* <button onClick={next}>Next</button> */}
 
 
   <div>
+  
       <br/>
-      <br/>
+      <hr/>
       <div >
         <h2 className="head1">Most Pooplar</h2>
       </div>
@@ -130,10 +139,46 @@ const populardata = [
         })}
     </wrap>
 
+    <br/>
+    <br/>
+    <hr/>
+    
+    <div>
+
+      <div >
+        <h2 className="head1">Snacks And Munchies Corner</h2>
+      </div>
+
+      <div className="snacks">
+        <img src={snacksimg1} className="snack-item1"></img>
+        <div className="innerGrid">
+        <img src={snacksimg2} className="snack-item"></img>
+        <img src={snacksimg3} className="snack-item"></img>
+        <img src={snacksimg4} className="snack-item"></img>
+        <img src={snacksimg5} className="snack-item"></img>
+
+        </div>
+        
+      </div>
+
+    </div>
+
+    <br/>
+    <br/>
+    <hr/>
+
+    <div className="">
+
+        <div >
+          <h2 className="head1">Cleaning And Household</h2>
+        </div>
+
+
+    </div>
 
   </div>
 
-  </div>
+</div>
 
 
     );

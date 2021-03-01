@@ -13,7 +13,9 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
+    "react-toaster": "^0.0.3",
     "react-whirligig": "^6.6.15",
+    "simple-react-validator": "^1.6.0",
     "web-vitals": "^1.1.0"
   },
   "scripts": {

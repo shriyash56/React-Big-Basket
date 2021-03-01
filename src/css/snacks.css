@@ -1,0 +1,25 @@
+.snacks{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.snacks .snack-item{
+
+    
+    width:  300px;
+    height: 300px;
+    
+}
+
+.snacks .snack-item1{
+
+    float: left;
+    width:  600px;
+    height: 600px;
+    background-size: cover;
+}
+
+.innerGrid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}

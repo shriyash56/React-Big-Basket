@@ -7,7 +7,7 @@ function Login() {
 
     return(
 
-        <div className="bg-img">
+      <div className="bg-img">
       <div className="content">
         <header>Login Form</header>
         <form action="#">
@@ -37,7 +37,7 @@ function Login() {
           </div>
         </div>
         <div className="signup">Don't have account?
-          <Link to={'logout/'}>Signup Now</Link>
+          <Link to={'signup/'}>Signup Now</Link>
         </div>
       </div>
     </div>

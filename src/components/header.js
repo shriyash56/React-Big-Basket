@@ -11,8 +11,6 @@ import {
 import logo from "../logo/logo.png";
 import {useHistory} from "react-router-dom";
 
-
-
 function Header() {
 
   const history = useHistory();
@@ -20,7 +18,7 @@ function Header() {
 
   return (
     <>
-      <Navbar className="nav" expand="lg">
+      <Navbar className="nav" expand="lg" sticky="top">
         <Navbar.Brand href="">
             <img className="logo" src={logo}/>
         </Navbar.Brand>
@@ -28,17 +26,6 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <NavDropdown title="Buy By Category" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
           </Nav>
           <Form>
           <button className="raise" onClick={() => history.push('/React-Big-Basket/login')}>Login/Signup</button>

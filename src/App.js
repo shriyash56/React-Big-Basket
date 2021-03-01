@@ -1,9 +1,13 @@
 import {Route,Switch,BrowserRouter as Router} from "react-router-dom"
-import Header from "./components/header";
-import Slider from "./components/slider";
-import Cards from "./components/cards";
-import Login from "./components/login";
-import Logout from "./components/logout";
+import React, { lazy, Suspense } from "react";
+
+const Header = lazy(()=> import("./components/header"));
+const Slider = lazy(()=>import("./components/slider"));
+const Cards = lazy(()=>import("./components/cards"));
+const Login = lazy(()=>import("./components/login"));
+const Signup = lazy(()=>import("./components/signup"));
+const Footer = lazy(()=>import("./components/footer"));
+
 
 
 function App() {
@@ -11,11 +15,13 @@ function App() {
   return (
     <Router>
     <div className="App">
+    <Suspense fallback={<div>Loading...</div>}>
       <Switch>
           <Route path="/React-Big-Basket" exact component={Home}/>
           <Route path="/React-Big-Basket/login" exact component={Login}/>
-          <Route path="/React-Big-Basket/logout" exact component={Logout}/>
+          <Route path="/React-Big-Basket/signup" exact component={Signup}/>
       </Switch>
+    </Suspense>
     </div>
     </Router>
   );
@@ -27,6 +33,7 @@ const Home=()=>(
       <Header/>
       <Slider/>
       <Cards/>
+      <Footer/>
     </div>
   
 )
